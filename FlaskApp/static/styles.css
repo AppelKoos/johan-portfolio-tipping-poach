@@ -1,0 +1,33 @@
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("DALL-Eimage.png");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero-text {
+    color: white;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.about {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.exp {
+text-align: center;
+}
+
+.edu {
+text-align: center;
+}
+
+.footy {
+text-align: center;
+}
