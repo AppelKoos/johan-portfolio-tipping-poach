@@ -1,22 +1,18 @@
+body{
+    height: 100%;
+}
+
 .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("DALL-Eimage.png");
-    padding-top: 15%;
-    padding-bottom: 15%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("DALL·E 2022-08-31 23.14.05.png");
+    padding-top: 17%;
+    padding-bottom: 17%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-.hero-text {
-    color: white;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
 
-.edu {
-text-align: center;
-}
 
-.footy {
-text-align: center;
+@media only screen and (min-width: 992px) {
+.row{
+    text-align: left;
 }

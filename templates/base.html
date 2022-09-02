@@ -10,93 +10,94 @@
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
-<!--Top Hero-->
-<div class="hero-image">
-    <div class="px-4 py-5 my-5 text-center">
-<!--        <img src="https://cdn.glitch.com/0e4d1ff3-5897-47c5-9711-d026c01539b8%2Fbddfd6e4434f42662b009295c9bab86e.gif?v=1573157191712" alt="this slowpoke moves"  width="250" alt="404 image"/>-->
-        <div class="hero-text">
-                <h1 class="display-5 fw-bold">Johan van der Merwe</h1>
+<div class="hero-image text-white">
+    <!--Top Hero-->
+    <div class="container-fluid" style="max-width: 800px;">
+        <div class="row text-center">
+            <div class="col-12 display-5 fw-bold">Johan van der Merwe</div>
             <div class="col-lg-6 mx-auto">
                 <p class="lead mb-4">Data Engineer</p>
             </div>
         </div>
     </div>
-</div>
 
-<div class="container pt-5 pb-5 text-center">
-    <div class="row">
-        <div class="col">
-            I’m a passionate software developer that frequently expands my expertise to meet demand.
-            I love cars, any movies & series and video games.
-        </div>
-    </div>
-</div>
-
-<div class="container text-center">
-    <div class="row justify-content-around">
-        <div class="col-12">
-                <H1 class="text-align-center">Experience</H1>
-            </div>
-        <div class="col-12">
-            <div class="row">
-                <div class="col-4">Cape Town Western Cape</div>
-                <div class="col-4">2021 - PRESENT</div>
-                <div class="col-4">Big Data Engineering Consultant at Autumn Leaf IT</div>
-                <div class="col-4"></div>
-                <div class="col-4">2020 - 2021</div>
-                <div class="col-4">Software Developer at Immersion Talent</div>
-                <div class="col-4"></div>
-                <div class="col-4">2019 - 2020</div>
-                <div class="col-4">Software Developer at Younglings</div>
+    <!--About-->
+    <div class="container-fluid pt-5 text-center" style="max-width: 800px;">
+        <div class="row text-center">
+            <div class="col">
+                <p>
+                    I’m a passionate software developer that frequently expands my expertise to meet demand.
+                    I love cars and motorsport, any movie or series and video games.
+                </p>
             </div>
         </div>
     </div>
-</div>
 
-<div class="edu">
-    <p>
-        Python PCAP
-APR 2022, Cape Town Western Cape
-AWS Developer Associate
-DEC2021, Cape Town Western Cape
-LPI LPIC-1
-APR2021, Cape Town Western Cape
-MTA Java Programming
-JAN2020, Cape Town Western Cape
-Brackenfell High School / Matric
-2014 - 2018, Cape Town Western Cape
-Subjects taken:
-Afrikaans Home Language
-English First Additional Language
-Mathematics
-Engineering Graphics and Design
-Information Technology
-Physical Sciences
-    </p>
-</div>
+    <!--Experience-->
+    <div class="container-fluid text-center mx-auto pt-5" style="max-width: 800px;">
+        <!--Gif-->
+        <img class="rounded-circle pb-5" src="https://c.tenor.com/HgMN6jicrAYAAAAC/gandalf-ian-mc-kellen.gif" alt="Gandalf Gif">
 
-{% block content %}{% endblock %}
+        <div class="row">
+            <div class="col"><h1 class="text-center">Experience</h1></div>
+        </div>
+        <div class="row justify-content-center gx-5 gy-3 mt-2">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4"><p>2021 - Present</p></div>
+            <div class="col-lg-6"><p>Associate Big Data Engineering Consultant at Autumn Leaf IT</p></div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4"><p>2020 - 2021</p></div>
+            <div class="col-lg-6"><p>Junior Software Developer at Immersion Talent</p></div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4"><p>2019 - 2020</p></div>
+            <div class="col-lg-6"><p>Junior Software Developer at Younglings</p></div>
+        </div>
+    </div>
+
+    <!--Education-->
+    <div class="container-fluid text-center mx-auto pt-5" style="max-width: 800px;">
+        <div class="row">
+            <div class="col"><h1 class="text-center">Education</h1></div>
+        </div>
+        <div class="row justify-content-center gx-5 gy-3 mt-2">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4"><p>Apr 2022</p></div>
+            <div class="col-lg-6"><p>Python PCAP</p></div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4"><p>Dec 2021</p></div>
+            <div class="col-lg-6"><p>AWS Developer Associate</p></div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4"><p>Apr 2021</p></div>
+            <div class="col-lg-6"><p>LPI LPIC-1</p></div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4"><p>Jan 2020</p></div>
+            <div class="col-lg-6"><p>MTA Java Programming</p></div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4"><p>2014 - 2018</p></div>
+            <div class="col-lg-6"><p>Matric - Brackenfell High School</p></div>
+        </div>
+    </div>
+</div>
 
 <!--Footer-->
-<div class="footy">
- <div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-      </a>
-      <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
-    </div>
-
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-    </ul>
-  </footer>
-</div>
+<div class="container-fluid bg-dark text-white">
+    <footer class="justify-content-center py-5">
+        <div class="row justify-content-center text-center">
+            <div class="col" data-bs-toggle="tooltip" title="LinkedIn">LinkedIn</div>
+            <div class="col" data-bs-toggle="tooltip" title="Youtube">Youtube</div>
+            <div class="col" data-bs-toggle="tooltip" title="Twitter">Twitter</div>
+            <div class="col" data-bs-toggle="tooltip" title="Github">Github</div>
+        </div>
+    </footer>
 </div>
 
+<!--Tooltips-->
+<script>
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
 <!-- Bootstrap import -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
